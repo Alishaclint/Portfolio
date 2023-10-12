@@ -1,0 +1,41 @@
+p{
+    font-size: 40px;
+    line-height: 1.4;
+    color: red;
+}
+@media (min-width:900px){
+    p{
+        font-size: 30px;
+        line-height: 1.2;
+        color:blue;
+    }
+}
+   
+.row{
+    
+    display: flex;
+    flex-wrap: nowrap;
+}
+.col{
+    width: 25%;
+    height: 200px;
+    border: 1px solid;
+    margin-left: 10px;
+}
+img{
+    width:100%;
+    height: 200px;
+}
+@media(max-width:900px){
+    .col{
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:600px){
+    .col{
+        font-size: 30px;
+        line-height: 1.2;
+        color: blue;
+    }
+}
